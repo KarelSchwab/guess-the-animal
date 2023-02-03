@@ -1,0 +1,17 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-I",
+      "/usr/include",
+      "-Wall",
+      "-o",
+      "main",
+      "main.cpp"
+    ],
+    "directory": "/home/karel/Personal/learning-cpp",
+    "file": "/home/karel/Personal/learning-cpp/main.cpp",
+    "output": "/home/karel/Personal/learning-cpp/main"
+  }
+]
