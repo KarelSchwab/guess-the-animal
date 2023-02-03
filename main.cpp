@@ -16,7 +16,7 @@ class Node {
     }
 };
 
-void ask(Node *node, Node *previous_node) {
+void guess_animal(Node *node, Node *previous_node) {
     string answer;
 
     if (node == nullptr) {
@@ -52,10 +52,10 @@ void ask(Node *node, Node *previous_node) {
         if (node->yes == nullptr) {
             cout << "******\nI win!\n******" << endl;
         } else {
-            ask(node->yes, node);
+            guess_animal(node->yes, node);
         }
     } else {
-        ask(node->no, node);
+        guess_animal(node->no, node);
     }
 }
 
@@ -68,7 +68,7 @@ int main() {
     char play_again = 'y';
 
     while (true) {
-        ask(root, nullptr);
+        guess_animal(root, nullptr);
 
         cout << "Would you like to play again? (y/n) ";
         cin >> play_again;
