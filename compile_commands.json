@@ -10,8 +10,8 @@
       "main",
       "main.cpp"
     ],
-    "directory": "/home/karel/Personal/learning-cpp",
-    "file": "/home/karel/Personal/learning-cpp/main.cpp",
-    "output": "/home/karel/Personal/learning-cpp/main"
+    "directory": "guess-the-animal",
+    "file": "./main.cpp",
+    "output": "./main"
   }
 ]
